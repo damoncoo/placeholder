@@ -95,7 +95,7 @@ static char charBlock;
     
     [[NSNotificationCenter defaultCenter] postNotificationName:UITextViewTextDidChangeNotification
                                                         object:self];
-    [self scrollToVisibleArea];
+//    [self scrollToVisibleArea];
 
 }
 
